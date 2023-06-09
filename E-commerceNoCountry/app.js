@@ -76,7 +76,7 @@ Object.values(carrito).forEach(item  =>{
 templateCarrito.querySelector('th').textContent=item.id
 templateCarrito.querySelectorAll('td')[0].textContent=item.title
 templateCarrito.querySelectorAll('td')[1].textContent=item.cantidad
-templateCarrito.querySelectorAll('td')[2].textContent=item.descripcion
+
 templateCarrito.querySelector('.btn-info').dataset.id=item.id
 templateCarrito.querySelector('.btn-danger').dataset.id=item.id
 templateCarrito.querySelector('span').textContent=item.cantidad * item.precio
